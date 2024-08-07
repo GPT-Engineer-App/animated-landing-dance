@@ -42,19 +42,19 @@ const Index = () => {
         <motion.div {...fadeInUp} transition={{ delay: 0.6 }}>
           <h3 className="text-2xl font-semibold mb-4 text-blue-400">Connect with Me</h3>
           <div className="flex space-x-4">
-            <Button variant="outline" size="icon" asChild>
-              <a href="https://github.com/alexalbert" target="_blank" rel="noopener noreferrer">
-                <Github className="h-4 w-4" />
+            <Button variant="outline" size="icon">
+              <a href="https://github.com/alexalbert" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
+                <Github className="h-5 w-5" />
               </a>
             </Button>
-            <Button variant="outline" size="icon" asChild>
-              <a href="https://twitter.com/alexalbert" target="_blank" rel="noopener noreferrer">
-                <Twitter className="h-4 w-4" />
+            <Button variant="outline" size="icon">
+              <a href="https://twitter.com/alexalbert" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
+                <Twitter className="h-5 w-5" />
               </a>
             </Button>
-            <Button variant="outline" size="icon" asChild>
-              <a href="https://linkedin.com/in/alexalbert" target="_blank" rel="noopener noreferrer">
-                <Linkedin className="h-4 w-4" />
+            <Button variant="outline" size="icon">
+              <a href="https://linkedin.com/in/alexalbert" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full h-full">
+                <Linkedin className="h-5 w-5" />
               </a>
             </Button>
           </div>
